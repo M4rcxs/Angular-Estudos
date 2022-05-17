@@ -1,1 +1,8 @@
-<p>list-render works!</p>
+<div class="class">
+    <h1>animais: </h1>
+    <ul>
+        <li *ngFor="let animal of animals">
+            Nome: {{animal.name}} - Tipo: {{animal.type}}
+        </li>
+    </ul>
+</div>
