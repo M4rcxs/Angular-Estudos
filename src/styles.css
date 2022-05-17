@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    magin: 0px;
+    paddin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+:root{
+    --main-color: #241c4c;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, rgb(36,28,76), #582060);
+    padding-bottom: 500px;
+}
+.class {
+    border-bottom: 1px solid red;
+    padding: 2em;
+    margin-bottom: 1em;
+}
+button {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 1em;
+    font-size: 0.9em;
+    color: white;
+    background: var(--main-color);
+}
