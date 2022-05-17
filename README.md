@@ -1,4 +1,6 @@
-# Projeto
+# Estudos
+
+<h1>Meus estudos básicos em angular, tais como lógica e entendimento de código</h1>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
 
