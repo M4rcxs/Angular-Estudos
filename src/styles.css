@@ -19,7 +19,7 @@ body {
 }
 button {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 1em;
+    padding: 0.5em;
     font-size: 0.9em;
     color: white;
     background: var(--main-color);

@@ -2,7 +2,9 @@
     <h1>animais: </h1>
     <ul>
         <li *ngFor="let animal of animals">
-            Nome: {{animal.name}} - Tipo: {{animal.type}}
+            Nome: {{ animal.name }} - Tipo: {{ animal.type }}
+            <button (click)="showAge(animal)">Clique para ver a idade!</button>
         </li>
+        <h3>{{ animalDetails }}</h3>
     </ul>
 </div>
